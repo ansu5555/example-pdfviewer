@@ -4,15 +4,13 @@ import './App.css'
 
 function App() {
     return (
-        <div className="container">
-            <PDFViewer
-                document={{
-                    url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
-                }}
-                canvasCss="customCanvasCss"
-                scale={0.6}
-            />
-        </div>
+        <PDFViewer
+            document={{
+                url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
+            }}
+            canvasCss="customCanvasCss"
+            scale={0.6}
+        />
     )
 }
 
