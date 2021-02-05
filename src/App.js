@@ -1,7 +1,7 @@
-import React from "react"
-import PDFViewer from "pdf-viewer-reactjs"
-import "bootstrap/dist/css/bootstrap.min.css"
-import "./App.css"
+import React from "react";
+import PDFViewer from "pdf-viewer-reactjs";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
