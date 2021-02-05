@@ -1,7 +1,7 @@
-import React from 'react';
-import PDFViewer from 'pdf-viewer-reactjs';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import React from "react";
+import PDFViewer from "pdf-viewer-reactjs";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (
@@ -14,15 +14,15 @@ function App() {
       <div className="border rounded">
         <PDFViewer
           document={{
-            url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
+            url: "https://arxiv.org/pdf/quant-ph/0410100.pdf",
           }}
           navbarOnTop
           showThumbnail={{
             scale: 5,
             onTop: true,
-            backgroundColor: '#000000',
-            thumbCss: 'customThumbStyle',
-            selectedThumbCss: 'customSelThumbStyle',
+            backgroundColor: "#000000",
+            thumbCss: "customThumbStyle",
+            selectedThumbCss: "customSelThumbStyle",
           }}
         />
       </div>
