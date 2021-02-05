@@ -1,13 +1,13 @@
 .customCanvasCss {
-    height: 55vh;
-    overflow: auto;
+  height: 55vh;
+  overflow: auto;
 }
 
 .customThumbStyle {
-    margin: 20px;
+  margin: 20px;
 }
 
 .customSelThumbStyle {
-    margin: 20px;
-    border: 3px solid rgb(255, 21, 0);
+  margin: 20px;
+  border: 3px solid rgb(255, 21, 0);
 }
